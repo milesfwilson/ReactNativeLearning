@@ -23,10 +23,12 @@ import ViewImageScreen from "./app/screens/ViewImageScreen";
 import AppText from "./app/components/AppText";
 import CustomButton from "./app/components/CustomButton";
 import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
+import MessagesScreen from "./app/screens/MessagesScreen";
 export default function App() {
   // return <WelcomeScreen />;
   // return <ViewImageScreen/>
-  return <ListingDetailsScreen />;
+  // return <ListingDetailsScreen />;
+  return <MessagesScreen />;
 
   {
     /* <View
