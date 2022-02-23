@@ -24,11 +24,15 @@ import AppText from "./app/components/AppText";
 import CustomButton from "./app/components/CustomButton";
 import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
 import MessagesScreen from "./app/screens/MessagesScreen";
+import MyAccountScreen from "./app/screens/MyAccountScreen";
+import ListingsScreen from "./app/screens/ListingsScreen";
 export default function App() {
   // return <WelcomeScreen />;
   // return <ViewImageScreen/>
   // return <ListingDetailsScreen />;
-  return <MessagesScreen />;
+  // return <MessagesScreen />;
+  return <MyAccountScreen />;
+  // return <ListingsScreen />;
 
   {
     /* <View
